@@ -8,7 +8,7 @@ const Contact = () => {
         <div className="md:w-1/3">
           <div className="text-center text-2xl">
             <div>
-              <p className="text-2xl font-semibold text-gray-700"> St Nathanael's Church</p>
+              <p className="text-2xl font-semibold text-gray-700"> St Nathanaels Church</p>
               <p className="text-gray-600">Fazakerley Rd</p>
               <p className="text-gray-600">Walton</p>
               <p className="text-gray-600">L9 2AJ</p>

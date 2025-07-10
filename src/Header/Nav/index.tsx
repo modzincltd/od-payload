@@ -1,11 +1,12 @@
 'use client'
 
 import React from 'react'
+import Link from 'next/link'
 
 import type { Header as HeaderType } from '@/payload-types'
 
 import { CMSLink } from '@/components/Link'
-import Link from 'next/link'
+
 import { SearchIcon } from 'lucide-react'
 
 export const HeaderNav: React.FC<{ data: HeaderType }> = ({ data }) => {
@@ -16,10 +17,10 @@ export const HeaderNav: React.FC<{ data: HeaderType }> = ({ data }) => {
       {navItems.map(({ link }, i) => {
         return <CMSLink key={i} {...link} appearance="link" />
       })}
-      <Link href="/search">
-        <span className="sr-only">Search</span>
-        <SearchIcon className="w-5 text-primary" />
-      </Link>
+      <div className="flex flex-column gap-4">
+        <Link href="https://www.facebook.com/theopeningdoorsprojectricelane">F</Link>
+        <Link href="https://www.instagram.com/openingdoorsproject">I</Link>
+      </div>
     </nav>
   )
 }

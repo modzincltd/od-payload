@@ -5,7 +5,6 @@ import Image from 'next/image'
 const testPage = () => {
   return (
     <div>
-      {/* 🖼 Hero Section */}
       <section
         className="relative h-[60vh] flex items-center justify-center text-white bg-cover bg-center"
         style={{ backgroundImage: "url('/hero1.jpg')" }}
@@ -48,7 +47,7 @@ const testPage = () => {
             families in Liverpool. Through various initiatives, we have provided resources,
             counseling, and support networks aimed at building resilience and promoting mental
             health. Our efforts have been recognized within the community, reflecting our dedication
-            to making a tangible difference in people's lives.
+            to making a tangible difference in peoples lives.
           </p>
         </div>
         <div className="w-full">
